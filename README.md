@@ -3,7 +3,7 @@
 ### 案例详解地址
 |案例|案例详解地址|
 |-------------|:-------------:|
-|Test4|[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)|
+|Shiro1|[初识Shiro](http://blog.csdn.net/u012702547/article/details/63268910)|
 
 ##### 更多JavaWeb资料欢迎小伙伴访问我的个人博客:
 

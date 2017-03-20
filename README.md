@@ -4,6 +4,7 @@
 |案例|案例详解地址|
 |-------------|:-------------:|
 |Shiro1|[初识Shiro](http://blog.csdn.net/u012702547/article/details/63268910)|
+|Shiro2|[Shiro中的授权问题](http://blog.csdn.net/u012702547/article/details/64130240)|
 
 ##### 更多JavaWeb资料欢迎小伙伴访问我的个人博客:
 

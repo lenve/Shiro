@@ -11,7 +11,7 @@ public class BitPermission implements Permission {
     private String instanceId;
 
     public BitPermission(String permissionString) {
-        String[] array = permissionString.split("\\+");
+        String[] array = permissionString.split("$");
         if (array.length > 1) {
             resourceIdentify = array[1];
         }

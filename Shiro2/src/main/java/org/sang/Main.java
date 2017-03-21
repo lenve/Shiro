@@ -167,10 +167,10 @@ public class Main {
         Subject subject = SecurityUtils.getSubject();
         Assert.assertTrue(subject.isPermitted("user1:update"));//OK
         Assert.assertTrue(subject.isPermitted("user2:update"));//OK
-        Assert.assertTrue(subject.isPermitted("+user1+2"));//OK
-        Assert.assertTrue(subject.isPermitted("+user1+8"));//OK
-        Assert.assertTrue(subject.isPermitted("+user2+10"));//OK
-        Assert.assertTrue(subject.isPermitted("+user1+4"));
+        Assert.assertTrue(subject.isPermitted("$user1$2"));//OK
+        Assert.assertTrue(subject.isPermitted("$user1$8"));//OK
+        Assert.assertTrue(subject.isPermitted("$user2$10"));//OK
+        Assert.assertTrue(subject.isPermitted("$user1$4"));//OK
         Assert.assertTrue(subject.isPermitted("menu:view"));//OK
     }
 

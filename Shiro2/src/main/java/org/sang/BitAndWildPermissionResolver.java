@@ -9,7 +9,7 @@ import org.apache.shiro.authz.permission.WildcardPermission;
  */
 public class BitAndWildPermissionResolver implements PermissionResolver {
     public Permission resolvePermission(String permissionString) {
-        if (permissionString.startsWith("+")) {
+        if (permissionString.startsWith("$")) {
             return new BitPermission(permissionString);
         }
         return new WildcardPermission(permissionString);
